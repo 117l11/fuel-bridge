@@ -36,7 +36,7 @@ const ETH_AMOUNT = '0.1';
   // use the FuelMessagePortal to directly send ETH to the fuel account
   console.log(`Sending ${ETH_AMOUNT} ETH from Ethereum...`);
   const eSendTx = await fuelMessagePortal.depositETH(fuelAccountAddress, {
-    value: parseEther(ETH_AMOUNT),
+    value: (ETH_AMOUNT),
   });
   const eSendTxResult = await eSendTx.wait();
   if (eSendTxResult.status !== 1) {

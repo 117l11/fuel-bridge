@@ -12,7 +12,12 @@
     "depositETH": "pnpm ts-node scripts/depositETH.ts",
     "bridgeETH": "pnpm ts-node scripts/bridgeETH.ts",
     "bridgeERC20": "pnpm ts-node scripts/bridgeERC20.ts",
-    "transfer": "pnpm ts-node scripts/transfer.ts"
+    "transfer": "pnpm ts-node scripts/transfer.ts",
+    "spoofETH": "pnpm ts-node scripts/spoofETH.ts",
+    "spoofETHV2": "pnpm ts-node scripts/spoofETHv2.ts",
+    "xERC20": "pnpm ts-node scripts/xERC20.ts"
+
+
   },
   "devDependencies": {
     "@fuel-bridge/fungible-token": "workspace:*",
